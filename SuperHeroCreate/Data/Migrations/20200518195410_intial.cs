@@ -22,7 +22,7 @@ namespace SuperHeroCreate.Data.Migrations
                 {
                     table.PrimaryKey("PK_SuperHeroes", x => x.Id);
                 });
-        }
+        } 
 
         protected override void Down(MigrationBuilder migrationBuilder)
         {
